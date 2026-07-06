@@ -1,0 +1,1001 @@
+Patient_ID,Encounter_ID,Age,Admit_Date,Admission_Type,Department,Length_of_Stay_Days,Discharge_Status,Readmit_30_Day_Flag,Admit_Month,Age_Group,LOS_Category,Long_Stay_Flag,Readmit_Status
+PT-1000,ENC-5000,3,2025-01-07,Urgent,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1001,ENC-5001,8,2025-03-04,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1002,ENC-5002,7,2025-02-05,Urgent,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1003,ENC-5003,3,2025-05-20,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1004,ENC-5004,0,2025-04-19,Emergency,NICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1005,ENC-5005,1,2025-01-08,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1006,ENC-5006,2,2025-02-25,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1007,ENC-5007,7,2025-01-07,Elective,General Pediatrics,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1008,ENC-5008,17,2025-05-20,Emergency,PICU,8,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1009,ENC-5009,13,2025-02-26,Urgent,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1010,ENC-5010,14,2025-05-31,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1011,ENC-5011,8,2025-02-10,Elective,General Pediatrics,1,Discharged Home,1,2025-02,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1012,ENC-5012,13,2025-03-29,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1013,ENC-5013,8,2025-02-09,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1014,ENC-5014,6,2025-03-28,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1015,ENC-5015,3,2025-01-24,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1016,ENC-5016,12,2025-04-02,Emergency,PICU,6,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1017,ENC-5017,11,2025-03-09,Elective,General Pediatrics,5,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1018,ENC-5018,1,2025-04-28,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1019,ENC-5019,17,2025-02-01,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1020,ENC-5020,12,2025-05-22,Emergency,PICU,6,Discharged Home,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1021,ENC-5021,9,2025-04-03,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1022,ENC-5022,18,2025-02-19,Urgent,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1023,ENC-5023,2,2025-01-12,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1024,ENC-5024,7,2025-01-21,Elective,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1025,ENC-5025,7,2025-01-26,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1026,ENC-5026,12,2025-03-13,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1027,ENC-5027,14,2025-02-11,Emergency,General Pediatrics,3,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1028,ENC-5028,11,2025-04-01,Emergency,Emergency Department,0,Transferred,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1029,ENC-5029,6,2025-03-10,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1030,ENC-5030,2,2025-02-13,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1031,ENC-5031,0,2025-02-11,Emergency,NICU,17,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1032,ENC-5032,14,2025-03-11,Emergency,General Pediatrics,4,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1033,ENC-5033,17,2025-03-25,Emergency,General Pediatrics,2,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1034,ENC-5034,1,2025-02-28,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1035,ENC-5035,1,2025-03-22,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1036,ENC-5036,12,2025-03-10,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1037,ENC-5037,2,2025-02-24,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1038,ENC-5038,18,2025-02-24,Emergency,General Pediatrics,3,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1039,ENC-5039,15,2025-04-28,Elective,General Pediatrics,4,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1040,ENC-5040,4,2025-02-05,Urgent,General Pediatrics,3,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1041,ENC-5041,7,2025-05-24,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1042,ENC-5042,17,2025-03-09,Emergency,Emergency Department,1,Transferred,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1043,ENC-5043,0,2025-05-30,Emergency,NICU,23,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1044,ENC-5044,0,2025-04-03,Emergency,NICU,22,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1045,ENC-5045,7,2025-02-05,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1046,ENC-5046,16,2025-05-07,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1047,ENC-5047,0,2025-01-13,Urgent,NICU,12,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1048,ENC-5048,3,2025-02-09,Emergency,Emergency Department,0,Discharged Home,1,2025-02,Child,Same-day,0,Readmitted within 30 days
+PT-1049,ENC-5049,5,2025-04-19,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1050,ENC-5050,0,2025-04-09,Emergency,NICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1051,ENC-5051,12,2025-04-30,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1052,ENC-5052,16,2025-05-22,Elective,General Pediatrics,3,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1053,ENC-5053,0,2025-05-18,Urgent,General Pediatrics,1,Observation/Follow-up,1,2025-05,Infant,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1054,ENC-5054,8,2025-01-29,Emergency,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1055,ENC-5055,9,2025-04-22,Emergency,Emergency Department,0,Transferred,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1056,ENC-5056,0,2025-04-27,Emergency,NICU,15,Discharged Home,1,2025-04,Infant,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1057,ENC-5057,0,2025-03-09,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1058,ENC-5058,16,2025-02-15,Emergency,PICU,17,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1059,ENC-5059,16,2025-03-18,Elective,General Pediatrics,1,Transferred,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1060,ENC-5060,16,2025-02-20,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1061,ENC-5061,4,2025-02-11,Urgent,General Pediatrics,3,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1062,ENC-5062,0,2025-03-24,Emergency,NICU,10,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1063,ENC-5063,15,2025-01-05,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1064,ENC-5064,3,2025-04-03,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1065,ENC-5065,0,2025-03-03,Emergency,NICU,19,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1066,ENC-5066,1,2025-03-03,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1067,ENC-5067,18,2025-01-21,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1068,ENC-5068,2,2025-05-05,Urgent,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1069,ENC-5069,2,2025-05-17,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1070,ENC-5070,4,2025-05-02,Emergency,PICU,7,Observation/Follow-up,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1071,ENC-5071,0,2025-03-09,Emergency,NICU,15,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1072,ENC-5072,16,2025-04-19,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1073,ENC-5073,6,2025-05-19,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1074,ENC-5074,6,2025-03-21,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1075,ENC-5075,0,2025-04-06,Emergency,NICU,22,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1076,ENC-5076,0,2025-05-13,Emergency,NICU,24,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1077,ENC-5077,14,2025-01-31,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1078,ENC-5078,7,2025-01-17,Urgent,General Pediatrics,2,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1079,ENC-5079,10,2025-01-06,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1080,ENC-5080,18,2025-02-28,Emergency,General Pediatrics,5,Discharged Home,0,2025-02,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1081,ENC-5081,18,2025-02-26,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1082,ENC-5082,0,2025-01-16,Emergency,General Pediatrics,1,Discharged Home,0,2025-01,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1083,ENC-5083,7,2025-01-18,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1084,ENC-5084,1,2025-01-19,Emergency,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1085,ENC-5085,16,2025-03-13,Elective,General Pediatrics,2,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1086,ENC-5086,15,2025-05-19,Emergency,PICU,8,Transferred,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1087,ENC-5087,4,2025-05-27,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1088,ENC-5088,18,2025-05-02,Emergency,Emergency Department,0,Transferred,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1089,ENC-5089,7,2025-05-02,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1090,ENC-5090,13,2025-01-25,Urgent,General Pediatrics,2,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1091,ENC-5091,3,2025-04-21,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1092,ENC-5092,11,2025-04-16,Emergency,PICU,11,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1093,ENC-5093,14,2025-01-14,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1094,ENC-5094,3,2025-01-16,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1095,ENC-5095,12,2025-03-28,Emergency,PICU,16,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1096,ENC-5096,3,2025-03-05,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1097,ENC-5097,6,2025-05-18,Elective,General Pediatrics,2,Observation/Follow-up,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1098,ENC-5098,14,2025-02-05,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1099,ENC-5099,13,2025-03-13,Emergency,General Pediatrics,2,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1100,ENC-5100,14,2025-03-05,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1101,ENC-5101,2,2025-05-21,Emergency,PICU,12,Observation/Follow-up,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1102,ENC-5102,3,2025-01-13,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1103,ENC-5103,17,2025-01-24,Emergency,General Pediatrics,1,Transferred,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1104,ENC-5104,7,2025-04-15,Emergency,General Pediatrics,2,Discharged Home,1,2025-04,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1105,ENC-5105,15,2025-05-04,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1106,ENC-5106,0,2025-04-13,Urgent,NICU,16,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1107,ENC-5107,1,2025-04-08,Elective,General Pediatrics,2,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1108,ENC-5108,0,2025-04-10,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Infant,Same-day,0,Not readmitted
+PT-1109,ENC-5109,8,2025-04-27,Urgent,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1110,ENC-5110,9,2025-04-19,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1111,ENC-5111,17,2025-02-09,Elective,General Pediatrics,4,Discharged Home,0,2025-02,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1112,ENC-5112,6,2025-03-17,Urgent,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1113,ENC-5113,6,2025-01-15,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1114,ENC-5114,18,2025-05-19,Urgent,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1115,ENC-5115,1,2025-03-22,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1116,ENC-5116,1,2025-05-30,Elective,General Pediatrics,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1117,ENC-5117,15,2025-05-16,Elective,General Pediatrics,5,Discharged Home,0,2025-05,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1118,ENC-5118,5,2025-01-15,Urgent,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1119,ENC-5119,0,2025-02-17,Emergency,NICU,12,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1120,ENC-5120,2,2025-01-18,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1121,ENC-5121,0,2025-04-14,Urgent,NICU,17,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1122,ENC-5122,3,2025-05-26,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1123,ENC-5123,7,2025-05-29,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1124,ENC-5124,1,2025-01-21,Urgent,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1125,ENC-5125,13,2025-05-30,Emergency,Emergency Department,1,Transferred,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1126,ENC-5126,18,2025-03-22,Urgent,General Pediatrics,5,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1127,ENC-5127,8,2025-03-22,Urgent,General Pediatrics,2,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1128,ENC-5128,7,2025-03-09,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1129,ENC-5129,12,2025-02-03,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1130,ENC-5130,9,2025-04-28,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1131,ENC-5131,10,2025-01-19,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1132,ENC-5132,0,2025-04-28,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Infant,Same-day,0,Not readmitted
+PT-1133,ENC-5133,18,2025-01-26,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1134,ENC-5134,2,2025-02-24,Emergency,General Pediatrics,5,Discharged Home,0,2025-02,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1135,ENC-5135,16,2025-02-03,Emergency,PICU,9,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1136,ENC-5136,11,2025-01-18,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1137,ENC-5137,7,2025-04-05,Emergency,Emergency Department,1,Transferred,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1138,ENC-5138,9,2025-02-10,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1139,ENC-5139,14,2025-05-20,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1140,ENC-5140,9,2025-05-16,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1141,ENC-5141,0,2025-05-22,Emergency,PICU,15,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1142,ENC-5142,0,2025-01-27,Urgent,NICU,19,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1143,ENC-5143,4,2025-03-09,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1144,ENC-5144,3,2025-05-22,Elective,General Pediatrics,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1145,ENC-5145,4,2025-03-11,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1146,ENC-5146,9,2025-02-23,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1147,ENC-5147,10,2025-03-09,Emergency,General Pediatrics,2,Discharged Home,1,2025-03,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1148,ENC-5148,16,2025-03-06,Elective,General Pediatrics,4,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1149,ENC-5149,1,2025-04-19,Urgent,PICU,6,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1150,ENC-5150,8,2025-01-12,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1151,ENC-5151,0,2025-03-27,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Infant,Same-day,0,Not readmitted
+PT-1152,ENC-5152,0,2025-03-09,Emergency,NICU,14,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1153,ENC-5153,5,2025-04-24,Emergency,Emergency Department,0,Discharged Home,1,2025-04,Child,Same-day,0,Readmitted within 30 days
+PT-1154,ENC-5154,17,2025-04-20,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1155,ENC-5155,0,2025-01-29,Emergency,NICU,10,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1156,ENC-5156,2,2025-05-20,Elective,General Pediatrics,2,Observation/Follow-up,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1157,ENC-5157,1,2025-04-05,Urgent,PICU,18,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1158,ENC-5158,18,2025-02-07,Emergency,PICU,13,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1159,ENC-5159,13,2025-01-11,Emergency,PICU,7,Discharged Home,0,2025-01,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1160,ENC-5160,9,2025-01-11,Elective,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1161,ENC-5161,11,2025-03-05,Urgent,General Pediatrics,2,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1162,ENC-5162,3,2025-04-01,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1163,ENC-5163,17,2025-04-15,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1164,ENC-5164,0,2025-03-02,Emergency,NICU,14,Transferred,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1165,ENC-5165,5,2025-02-15,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1166,ENC-5166,13,2025-02-15,Elective,General Pediatrics,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1167,ENC-5167,10,2025-04-16,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1168,ENC-5168,7,2025-02-10,Urgent,General Pediatrics,3,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1169,ENC-5169,3,2025-01-10,Emergency,General Pediatrics,4,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1170,ENC-5170,15,2025-02-26,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1171,ENC-5171,6,2025-04-28,Emergency,PICU,18,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1172,ENC-5172,11,2025-03-20,Urgent,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1173,ENC-5173,7,2025-01-07,Emergency,General Pediatrics,2,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1174,ENC-5174,0,2025-04-13,Emergency,NICU,16,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1175,ENC-5175,0,2025-03-13,Emergency,NICU,20,Transferred,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1176,ENC-5176,2,2025-03-13,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1177,ENC-5177,11,2025-04-13,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1178,ENC-5178,17,2025-01-08,Elective,General Pediatrics,3,Discharged Home,1,2025-01,Adolescent,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1179,ENC-5179,3,2025-02-15,Urgent,General Pediatrics,3,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1180,ENC-5180,18,2025-03-09,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1181,ENC-5181,1,2025-01-28,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1182,ENC-5182,13,2025-03-22,Emergency,PICU,10,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1183,ENC-5183,13,2025-05-11,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1184,ENC-5184,3,2025-04-09,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1185,ENC-5185,18,2025-02-18,Urgent,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1186,ENC-5186,8,2025-04-22,Urgent,General Pediatrics,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1187,ENC-5187,0,2025-05-18,Emergency,PICU,13,Transferred,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1188,ENC-5188,6,2025-04-04,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1189,ENC-5189,13,2025-03-26,Emergency,PICU,6,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1190,ENC-5190,10,2025-02-01,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1191,ENC-5191,9,2025-03-21,Urgent,General Pediatrics,5,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1192,ENC-5192,13,2025-03-25,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1193,ENC-5193,12,2025-03-17,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1194,ENC-5194,17,2025-02-02,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1195,ENC-5195,6,2025-04-18,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1196,ENC-5196,12,2025-02-14,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1197,ENC-5197,18,2025-03-19,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1198,ENC-5198,0,2025-05-21,Emergency,NICU,22,Transferred,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1199,ENC-5199,0,2025-03-19,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Infant,Same-day,0,Not readmitted
+PT-1200,ENC-5200,0,2025-02-23,Emergency,NICU,19,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1201,ENC-5201,13,2025-05-29,Urgent,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1202,ENC-5202,10,2025-04-30,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1203,ENC-5203,14,2025-04-24,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1204,ENC-5204,6,2025-05-02,Elective,General Pediatrics,5,Discharged Home,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1205,ENC-5205,5,2025-01-22,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1206,ENC-5206,9,2025-05-12,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1207,ENC-5207,10,2025-01-24,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1208,ENC-5208,0,2025-03-21,Emergency,NICU,17,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1209,ENC-5209,7,2025-02-20,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1210,ENC-5210,4,2025-01-12,Emergency,PICU,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1211,ENC-5211,7,2025-05-02,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1212,ENC-5212,0,2025-04-27,Emergency,NICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1213,ENC-5213,13,2025-05-28,Emergency,PICU,15,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1214,ENC-5214,0,2025-04-09,Emergency,NICU,16,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1215,ENC-5215,15,2025-04-13,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1216,ENC-5216,7,2025-02-07,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1217,ENC-5217,0,2025-01-28,Emergency,PICU,17,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1218,ENC-5218,13,2025-02-26,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1219,ENC-5219,5,2025-05-13,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1220,ENC-5220,14,2025-05-23,Elective,General Pediatrics,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1221,ENC-5221,7,2025-02-01,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1222,ENC-5222,14,2025-02-04,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1223,ENC-5223,14,2025-05-24,Emergency,General Pediatrics,5,Discharged Home,0,2025-05,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1224,ENC-5224,10,2025-05-10,Elective,General Pediatrics,4,Transferred,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1225,ENC-5225,13,2025-04-25,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1226,ENC-5226,5,2025-05-02,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1227,ENC-5227,14,2025-03-05,Emergency,PICU,9,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1228,ENC-5228,8,2025-05-14,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1229,ENC-5229,15,2025-03-12,Elective,General Pediatrics,2,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1230,ENC-5230,14,2025-03-15,Emergency,General Pediatrics,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1231,ENC-5231,7,2025-03-27,Elective,General Pediatrics,3,Observation/Follow-up,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1232,ENC-5232,10,2025-01-21,Emergency,PICU,13,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1233,ENC-5233,4,2025-03-01,Elective,General Pediatrics,2,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1234,ENC-5234,12,2025-02-09,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1235,ENC-5235,6,2025-01-17,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1236,ENC-5236,13,2025-03-26,Urgent,General Pediatrics,4,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1237,ENC-5237,17,2025-04-30,Urgent,Emergency Department,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1238,ENC-5238,13,2025-02-22,Elective,General Pediatrics,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1239,ENC-5239,13,2025-04-10,Urgent,Emergency Department,0,Transferred,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1240,ENC-5240,0,2025-05-28,Emergency,NICU,10,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1241,ENC-5241,12,2025-05-03,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1242,ENC-5242,0,2025-03-18,Elective,General Pediatrics,3,Transferred,1,2025-03,Infant,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1243,ENC-5243,12,2025-04-18,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1244,ENC-5244,17,2025-02-26,Emergency,General Pediatrics,5,Discharged Home,0,2025-02,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1245,ENC-5245,0,2025-02-26,Emergency,NICU,25,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1246,ENC-5246,8,2025-04-22,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1247,ENC-5247,15,2025-04-10,Elective,General Pediatrics,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1248,ENC-5248,10,2025-04-14,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1249,ENC-5249,5,2025-04-30,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1250,ENC-5250,4,2025-05-17,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1251,ENC-5251,0,2025-05-25,Emergency,PICU,11,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1252,ENC-5252,0,2025-04-20,Emergency,PICU,6,Discharged Home,0,2025-04,Infant,Moderate stay (4-7 days),1,Not readmitted
+PT-1253,ENC-5253,4,2025-04-29,Urgent,PICU,18,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1254,ENC-5254,0,2025-01-13,Urgent,NICU,15,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1255,ENC-5255,8,2025-03-25,Emergency,General Pediatrics,4,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1256,ENC-5256,6,2025-04-27,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1257,ENC-5257,10,2025-03-28,Emergency,Emergency Department,0,Discharged Home,1,2025-03,Child,Same-day,0,Readmitted within 30 days
+PT-1258,ENC-5258,0,2025-03-13,Emergency,NICU,22,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1259,ENC-5259,13,2025-01-21,Emergency,PICU,9,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1260,ENC-5260,15,2025-05-19,Urgent,General Pediatrics,1,Discharged Home,1,2025-05,Adolescent,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1261,ENC-5261,1,2025-03-31,Urgent,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1262,ENC-5262,7,2025-01-18,Emergency,PICU,15,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1263,ENC-5263,0,2025-01-08,Emergency,NICU,11,Discharged Home,1,2025-01,Infant,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1264,ENC-5264,7,2025-01-06,Elective,General Pediatrics,2,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1265,ENC-5265,4,2025-03-03,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1266,ENC-5266,4,2025-01-30,Emergency,PICU,12,Discharged Home,1,2025-01,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1267,ENC-5267,18,2025-02-25,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1268,ENC-5268,14,2025-03-07,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1269,ENC-5269,11,2025-01-30,Emergency,General Pediatrics,2,Discharged Home,1,2025-01,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1270,ENC-5270,5,2025-03-21,Emergency,Emergency Department,0,Discharged Home,1,2025-03,Child,Same-day,0,Readmitted within 30 days
+PT-1271,ENC-5271,3,2025-05-29,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1272,ENC-5272,0,2025-05-28,Emergency,PICU,9,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1273,ENC-5273,12,2025-02-20,Emergency,General Pediatrics,4,Discharged Home,0,2025-02,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1274,ENC-5274,2,2025-03-04,Urgent,PICU,14,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1275,ENC-5275,3,2025-03-19,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1276,ENC-5276,3,2025-05-25,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1277,ENC-5277,1,2025-03-30,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1278,ENC-5278,17,2025-04-05,Emergency,PICU,11,Discharged Home,0,2025-04,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1279,ENC-5279,2,2025-05-10,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1280,ENC-5280,10,2025-04-18,Urgent,PICU,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1281,ENC-5281,15,2025-01-28,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1282,ENC-5282,13,2025-04-03,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1283,ENC-5283,14,2025-02-09,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1284,ENC-5284,13,2025-02-15,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1285,ENC-5285,16,2025-05-18,Emergency,General Pediatrics,3,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1286,ENC-5286,0,2025-04-30,Urgent,NICU,25,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1287,ENC-5287,13,2025-03-10,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1288,ENC-5288,10,2025-01-23,Urgent,General Pediatrics,2,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1289,ENC-5289,8,2025-03-04,Urgent,General Pediatrics,4,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1290,ENC-5290,0,2025-05-26,Emergency,NICU,24,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1291,ENC-5291,12,2025-03-28,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1292,ENC-5292,0,2025-03-25,Urgent,General Pediatrics,4,Discharged Home,0,2025-03,Infant,Moderate stay (4-7 days),1,Not readmitted
+PT-1293,ENC-5293,5,2025-02-24,Emergency,PICU,12,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1294,ENC-5294,11,2025-03-08,Urgent,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1295,ENC-5295,10,2025-03-12,Emergency,PICU,9,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1296,ENC-5296,17,2025-01-03,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1297,ENC-5297,16,2025-02-18,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1298,ENC-5298,0,2025-03-03,Emergency,NICU,12,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1299,ENC-5299,13,2025-05-23,Elective,General Pediatrics,4,Discharged Home,0,2025-05,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1300,ENC-5300,0,2025-05-02,Urgent,NICU,17,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1301,ENC-5301,0,2025-04-25,Urgent,NICU,25,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1302,ENC-5302,0,2025-03-17,Emergency,General Pediatrics,1,Discharged Home,1,2025-03,Infant,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1303,ENC-5303,7,2025-04-14,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1304,ENC-5304,7,2025-03-20,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1305,ENC-5305,18,2025-04-05,Urgent,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1306,ENC-5306,15,2025-05-16,Emergency,PICU,13,Observation/Follow-up,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1307,ENC-5307,11,2025-04-19,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1308,ENC-5308,17,2025-04-01,Urgent,General Pediatrics,3,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1309,ENC-5309,14,2025-03-20,Emergency,PICU,9,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1310,ENC-5310,8,2025-01-31,Emergency,PICU,8,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1311,ENC-5311,6,2025-01-31,Urgent,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1312,ENC-5312,17,2025-02-17,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1313,ENC-5313,6,2025-02-25,Emergency,Emergency Department,0,Transferred,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1314,ENC-5314,15,2025-03-12,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1315,ENC-5315,18,2025-05-15,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1316,ENC-5316,9,2025-01-26,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1317,ENC-5317,6,2025-03-17,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1318,ENC-5318,7,2025-04-03,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1319,ENC-5319,5,2025-01-04,Urgent,PICU,9,Transferred,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1320,ENC-5320,17,2025-02-02,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1321,ENC-5321,8,2025-01-14,Elective,General Pediatrics,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1322,ENC-5322,17,2025-02-02,Emergency,PICU,9,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1323,ENC-5323,15,2025-01-04,Urgent,PICU,6,Discharged Home,1,2025-01,Adolescent,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1324,ENC-5324,18,2025-03-14,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1325,ENC-5325,15,2025-04-23,Urgent,General Pediatrics,4,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1326,ENC-5326,10,2025-01-14,Elective,General Pediatrics,2,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1327,ENC-5327,8,2025-01-30,Emergency,General Pediatrics,4,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1328,ENC-5328,2,2025-04-13,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1329,ENC-5329,15,2025-01-19,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1330,ENC-5330,0,2025-02-08,Emergency,NICU,11,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1331,ENC-5331,4,2025-05-25,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1332,ENC-5332,9,2025-01-22,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1333,ENC-5333,0,2025-01-31,Urgent,NICU,17,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1334,ENC-5334,17,2025-02-27,Emergency,General Pediatrics,4,Discharged Home,0,2025-02,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1335,ENC-5335,0,2025-04-26,Urgent,NICU,22,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1336,ENC-5336,14,2025-03-18,Urgent,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1337,ENC-5337,18,2025-04-20,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1338,ENC-5338,9,2025-05-26,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1339,ENC-5339,1,2025-01-26,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1340,ENC-5340,6,2025-02-24,Emergency,PICU,15,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1341,ENC-5341,8,2025-02-10,Urgent,General Pediatrics,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1342,ENC-5342,7,2025-02-14,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1343,ENC-5343,17,2025-02-10,Emergency,General Pediatrics,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1344,ENC-5344,0,2025-04-15,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1345,ENC-5345,14,2025-05-01,Emergency,PICU,16,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1346,ENC-5346,9,2025-03-01,Emergency,PICU,5,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1347,ENC-5347,0,2025-03-14,Emergency,NICU,19,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1348,ENC-5348,14,2025-01-19,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1349,ENC-5349,7,2025-03-09,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1350,ENC-5350,18,2025-04-19,Emergency,General Pediatrics,2,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1351,ENC-5351,3,2025-05-20,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1352,ENC-5352,7,2025-02-08,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1353,ENC-5353,8,2025-02-06,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1354,ENC-5354,2,2025-01-16,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1355,ENC-5355,5,2025-03-20,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1356,ENC-5356,18,2025-03-15,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1357,ENC-5357,0,2025-02-01,Urgent,NICU,24,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1358,ENC-5358,0,2025-03-19,Urgent,NICU,24,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1359,ENC-5359,12,2025-03-11,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1360,ENC-5360,16,2025-05-19,Emergency,Emergency Department,1,Transferred,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1361,ENC-5361,15,2025-04-23,Emergency,Emergency Department,1,Transferred,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1362,ENC-5362,2,2025-01-11,Urgent,General Pediatrics,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1363,ENC-5363,13,2025-03-24,Emergency,PICU,16,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1364,ENC-5364,8,2025-01-24,Emergency,PICU,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1365,ENC-5365,7,2025-05-28,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1366,ENC-5366,18,2025-01-06,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1367,ENC-5367,8,2025-05-28,Urgent,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1368,ENC-5368,1,2025-02-14,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1369,ENC-5369,15,2025-04-24,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1370,ENC-5370,8,2025-02-16,Emergency,Emergency Department,0,Discharged Home,1,2025-02,Child,Same-day,0,Readmitted within 30 days
+PT-1371,ENC-5371,0,2025-05-06,Urgent,NICU,23,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1372,ENC-5372,2,2025-03-31,Urgent,General Pediatrics,4,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1373,ENC-5373,13,2025-03-27,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1374,ENC-5374,10,2025-01-27,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1375,ENC-5375,5,2025-04-16,Urgent,General Pediatrics,3,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1376,ENC-5376,15,2025-03-15,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1377,ENC-5377,12,2025-05-21,Emergency,PICU,18,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1378,ENC-5378,1,2025-04-27,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1379,ENC-5379,2,2025-03-06,Emergency,General Pediatrics,3,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1380,ENC-5380,10,2025-01-30,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1381,ENC-5381,12,2025-01-01,Elective,General Pediatrics,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1382,ENC-5382,0,2025-04-16,Emergency,NICU,24,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1383,ENC-5383,1,2025-05-13,Urgent,General Pediatrics,2,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1384,ENC-5384,11,2025-05-08,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1385,ENC-5385,14,2025-01-14,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1386,ENC-5386,6,2025-03-10,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1387,ENC-5387,17,2025-03-15,Elective,General Pediatrics,2,Observation/Follow-up,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1388,ENC-5388,14,2025-05-05,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1389,ENC-5389,3,2025-01-08,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1390,ENC-5390,7,2025-02-10,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1391,ENC-5391,9,2025-01-04,Elective,General Pediatrics,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1392,ENC-5392,17,2025-04-15,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1393,ENC-5393,2,2025-02-27,Emergency,Emergency Department,0,Transferred,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1394,ENC-5394,0,2025-04-29,Emergency,NICU,13,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1395,ENC-5395,3,2025-02-09,Emergency,PICU,15,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1396,ENC-5396,15,2025-03-16,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1397,ENC-5397,16,2025-04-17,Elective,General Pediatrics,3,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1398,ENC-5398,15,2025-05-01,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1399,ENC-5399,7,2025-04-27,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1400,ENC-5400,17,2025-02-07,Urgent,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1401,ENC-5401,12,2025-02-18,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1402,ENC-5402,0,2025-01-18,Emergency,NICU,14,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1403,ENC-5403,8,2025-04-17,Emergency,PICU,17,Observation/Follow-up,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1404,ENC-5404,0,2025-05-10,Urgent,NICU,20,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1405,ENC-5405,8,2025-01-01,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1406,ENC-5406,9,2025-03-18,Emergency,Emergency Department,0,Transferred,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1407,ENC-5407,18,2025-05-29,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1408,ENC-5408,15,2025-04-25,Elective,General Pediatrics,2,Discharged Home,1,2025-04,Adolescent,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1409,ENC-5409,17,2025-05-04,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1410,ENC-5410,11,2025-05-22,Emergency,PICU,10,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1411,ENC-5411,17,2025-04-27,Elective,General Pediatrics,4,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1412,ENC-5412,10,2025-02-18,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1413,ENC-5413,7,2025-04-09,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1414,ENC-5414,7,2025-04-16,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1415,ENC-5415,0,2025-03-23,Urgent,NICU,11,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1416,ENC-5416,15,2025-04-08,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1417,ENC-5417,12,2025-02-08,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1418,ENC-5418,0,2025-01-10,Emergency,NICU,25,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1419,ENC-5419,0,2025-05-09,Emergency,NICU,14,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1420,ENC-5420,18,2025-01-26,Emergency,PICU,10,Observation/Follow-up,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1421,ENC-5421,14,2025-01-26,Emergency,Emergency Department,0,Discharged Home,1,2025-01,Adolescent,Same-day,0,Readmitted within 30 days
+PT-1422,ENC-5422,16,2025-04-27,Emergency,Emergency Department,1,Transferred,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1423,ENC-5423,0,2025-02-06,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Infant,Same-day,0,Not readmitted
+PT-1424,ENC-5424,13,2025-02-09,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1425,ENC-5425,0,2025-05-01,Emergency,NICU,12,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1426,ENC-5426,0,2025-03-28,Emergency,NICU,18,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1427,ENC-5427,12,2025-01-21,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1428,ENC-5428,10,2025-05-17,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1429,ENC-5429,12,2025-03-23,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1430,ENC-5430,15,2025-05-19,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1431,ENC-5431,0,2025-01-18,Emergency,NICU,11,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1432,ENC-5432,7,2025-03-15,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1433,ENC-5433,0,2025-01-24,Emergency,NICU,17,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1434,ENC-5434,13,2025-01-26,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1435,ENC-5435,3,2025-04-24,Urgent,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1436,ENC-5436,5,2025-01-08,Emergency,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1437,ENC-5437,1,2025-03-25,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1438,ENC-5438,1,2025-03-17,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1439,ENC-5439,11,2025-04-06,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1440,ENC-5440,13,2025-02-07,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1441,ENC-5441,7,2025-05-16,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1442,ENC-5442,13,2025-05-25,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1443,ENC-5443,5,2025-02-13,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1444,ENC-5444,5,2025-01-21,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1445,ENC-5445,12,2025-03-03,Emergency,Emergency Department,0,Discharged Home,1,2025-03,Child,Same-day,0,Readmitted within 30 days
+PT-1446,ENC-5446,15,2025-05-30,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1447,ENC-5447,4,2025-04-29,Elective,General Pediatrics,2,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1448,ENC-5448,8,2025-04-28,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1449,ENC-5449,8,2025-01-03,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1450,ENC-5450,14,2025-05-20,Emergency,PICU,9,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1451,ENC-5451,5,2025-01-19,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1452,ENC-5452,14,2025-03-30,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1453,ENC-5453,18,2025-03-18,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1454,ENC-5454,13,2025-03-06,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1455,ENC-5455,14,2025-03-19,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1456,ENC-5456,6,2025-04-09,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1457,ENC-5457,15,2025-01-28,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1458,ENC-5458,7,2025-04-08,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1459,ENC-5459,18,2025-05-28,Emergency,General Pediatrics,3,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1460,ENC-5460,9,2025-03-17,Emergency,PICU,16,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1461,ENC-5461,0,2025-04-12,Urgent,Emergency Department,0,Discharged Home,0,2025-04,Infant,Same-day,0,Not readmitted
+PT-1462,ENC-5462,8,2025-05-25,Emergency,PICU,5,Discharged Home,1,2025-05,Child,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1463,ENC-5463,1,2025-05-08,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1464,ENC-5464,9,2025-04-01,Elective,General Pediatrics,2,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1465,ENC-5465,0,2025-02-18,Emergency,NICU,17,Transferred,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1466,ENC-5466,8,2025-02-05,Urgent,Emergency Department,0,Observation/Follow-up,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1467,ENC-5467,0,2025-01-11,Emergency,NICU,13,Transferred,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1468,ENC-5468,9,2025-04-23,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1469,ENC-5469,1,2025-04-04,Emergency,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1470,ENC-5470,4,2025-03-17,Elective,General Pediatrics,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1471,ENC-5471,10,2025-04-17,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1472,ENC-5472,5,2025-02-21,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1473,ENC-5473,4,2025-04-04,Emergency,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1474,ENC-5474,16,2025-05-09,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1475,ENC-5475,8,2025-02-12,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1476,ENC-5476,8,2025-05-04,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1477,ENC-5477,9,2025-03-28,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1478,ENC-5478,0,2025-04-30,Emergency,NICU,13,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1479,ENC-5479,2,2025-02-06,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1480,ENC-5480,7,2025-05-23,Elective,General Pediatrics,4,Discharged Home,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1481,ENC-5481,11,2025-01-24,Urgent,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1482,ENC-5482,12,2025-01-04,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1483,ENC-5483,8,2025-02-01,Emergency,General Pediatrics,5,Discharged Home,0,2025-02,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1484,ENC-5484,14,2025-03-09,Urgent,PICU,10,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1485,ENC-5485,18,2025-04-08,Urgent,Emergency Department,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1486,ENC-5486,11,2025-03-01,Elective,General Pediatrics,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1487,ENC-5487,15,2025-01-07,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1488,ENC-5488,17,2025-03-25,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1489,ENC-5489,0,2025-01-17,Emergency,NICU,17,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1490,ENC-5490,14,2025-03-19,Urgent,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1491,ENC-5491,13,2025-02-05,Emergency,General Pediatrics,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1492,ENC-5492,1,2025-03-19,Emergency,PICU,5,Discharged Home,1,2025-03,Child,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1493,ENC-5493,15,2025-01-25,Urgent,General Pediatrics,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1494,ENC-5494,0,2025-05-18,Emergency,NICU,17,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1495,ENC-5495,4,2025-04-27,Urgent,PICU,11,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1496,ENC-5496,11,2025-05-19,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1497,ENC-5497,0,2025-05-31,Urgent,NICU,23,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1498,ENC-5498,0,2025-04-17,Emergency,NICU,14,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1499,ENC-5499,3,2025-05-06,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1500,ENC-5500,13,2025-01-09,Elective,General Pediatrics,3,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1501,ENC-5501,0,2025-02-25,Emergency,NICU,21,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1502,ENC-5502,14,2025-04-24,Emergency,Emergency Department,0,Discharged Home,1,2025-04,Adolescent,Same-day,0,Readmitted within 30 days
+PT-1503,ENC-5503,7,2025-04-03,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1504,ENC-5504,3,2025-04-05,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1505,ENC-5505,17,2025-04-02,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1506,ENC-5506,1,2025-04-12,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1507,ENC-5507,0,2025-02-18,Emergency,NICU,18,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1508,ENC-5508,3,2025-01-24,Urgent,General Pediatrics,4,Discharged Home,1,2025-01,Child,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1509,ENC-5509,6,2025-01-06,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1510,ENC-5510,1,2025-03-04,Elective,General Pediatrics,3,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1511,ENC-5511,4,2025-02-22,Elective,General Pediatrics,5,Discharged Home,0,2025-02,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1512,ENC-5512,0,2025-05-22,Emergency,NICU,12,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1513,ENC-5513,0,2025-05-31,Emergency,NICU,16,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1514,ENC-5514,6,2025-03-01,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1515,ENC-5515,10,2025-02-07,Emergency,Emergency Department,0,Transferred,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1516,ENC-5516,0,2025-02-07,Emergency,PICU,9,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1517,ENC-5517,0,2025-05-19,Urgent,NICU,14,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1518,ENC-5518,8,2025-02-14,Emergency,PICU,17,Transferred,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1519,ENC-5519,3,2025-01-07,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1520,ENC-5520,4,2025-01-04,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1521,ENC-5521,11,2025-03-02,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1522,ENC-5522,18,2025-03-24,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1523,ENC-5523,0,2025-02-14,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1524,ENC-5524,8,2025-01-14,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1525,ENC-5525,4,2025-04-18,Emergency,PICU,16,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1526,ENC-5526,16,2025-01-30,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1527,ENC-5527,2,2025-05-02,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1528,ENC-5528,14,2025-04-03,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1529,ENC-5529,16,2025-01-28,Urgent,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1530,ENC-5530,14,2025-05-09,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1531,ENC-5531,7,2025-01-12,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1532,ENC-5532,16,2025-04-28,Emergency,PICU,9,Discharged Home,1,2025-04,Adolescent,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1533,ENC-5533,0,2025-01-16,Urgent,Emergency Department,0,Transferred,0,2025-01,Infant,Same-day,0,Not readmitted
+PT-1534,ENC-5534,15,2025-04-20,Elective,General Pediatrics,4,Discharged Home,1,2025-04,Adolescent,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1535,ENC-5535,3,2025-05-06,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1536,ENC-5536,0,2025-01-19,Emergency,NICU,24,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1537,ENC-5537,2,2025-03-24,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1538,ENC-5538,4,2025-01-17,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1539,ENC-5539,0,2025-03-12,Emergency,NICU,14,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1540,ENC-5540,18,2025-05-21,Emergency,Emergency Department,1,Transferred,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1541,ENC-5541,0,2025-04-08,Emergency,NICU,20,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1542,ENC-5542,16,2025-03-17,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1543,ENC-5543,14,2025-04-21,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1544,ENC-5544,3,2025-01-30,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1545,ENC-5545,17,2025-04-21,Elective,General Pediatrics,2,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1546,ENC-5546,14,2025-04-16,Urgent,General Pediatrics,2,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1547,ENC-5547,10,2025-04-27,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1548,ENC-5548,12,2025-04-17,Emergency,Emergency Department,0,Discharged Home,1,2025-04,Child,Same-day,0,Readmitted within 30 days
+PT-1549,ENC-5549,3,2025-03-22,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1550,ENC-5550,13,2025-03-22,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1551,ENC-5551,8,2025-02-09,Emergency,General Pediatrics,3,Transferred,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1552,ENC-5552,15,2025-01-18,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1553,ENC-5553,2,2025-01-22,Emergency,PICU,18,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1554,ENC-5554,2,2025-04-21,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1555,ENC-5555,3,2025-02-03,Emergency,General Pediatrics,3,Observation/Follow-up,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1556,ENC-5556,17,2025-05-31,Emergency,General Pediatrics,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1557,ENC-5557,17,2025-03-26,Elective,General Pediatrics,5,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1558,ENC-5558,3,2025-04-01,Emergency,PICU,11,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1559,ENC-5559,0,2025-01-14,Emergency,NICU,23,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1560,ENC-5560,9,2025-03-21,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1561,ENC-5561,11,2025-05-28,Elective,General Pediatrics,1,Discharged Home,1,2025-05,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1562,ENC-5562,16,2025-02-24,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1563,ENC-5563,4,2025-05-04,Emergency,PICU,15,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1564,ENC-5564,7,2025-01-28,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1565,ENC-5565,11,2025-05-23,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1566,ENC-5566,0,2025-01-30,Urgent,NICU,21,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1567,ENC-5567,0,2025-05-27,Emergency,NICU,18,Transferred,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1568,ENC-5568,7,2025-04-20,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1569,ENC-5569,17,2025-05-23,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1570,ENC-5570,0,2025-03-10,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1571,ENC-5571,0,2025-02-16,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Infant,Same-day,0,Not readmitted
+PT-1572,ENC-5572,8,2025-03-21,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1573,ENC-5573,10,2025-01-02,Emergency,PICU,10,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1574,ENC-5574,5,2025-02-06,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1575,ENC-5575,18,2025-04-13,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1576,ENC-5576,2,2025-02-06,Urgent,Emergency Department,0,Observation/Follow-up,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1577,ENC-5577,0,2025-05-16,Emergency,PICU,6,Discharged Home,0,2025-05,Infant,Moderate stay (4-7 days),1,Not readmitted
+PT-1578,ENC-5578,6,2025-04-18,Emergency,PICU,11,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1579,ENC-5579,14,2025-02-10,Urgent,PICU,10,Discharged Home,1,2025-02,Adolescent,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1580,ENC-5580,11,2025-03-25,Emergency,PICU,9,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1581,ENC-5581,0,2025-01-14,Emergency,NICU,12,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1582,ENC-5582,4,2025-02-10,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1583,ENC-5583,1,2025-01-21,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1584,ENC-5584,8,2025-04-19,Emergency,General Pediatrics,4,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1585,ENC-5585,15,2025-04-24,Emergency,General Pediatrics,5,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1586,ENC-5586,13,2025-03-11,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1587,ENC-5587,0,2025-05-12,Emergency,NICU,16,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1588,ENC-5588,3,2025-04-21,Emergency,General Pediatrics,3,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1589,ENC-5589,3,2025-03-14,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1590,ENC-5590,18,2025-05-05,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1591,ENC-5591,16,2025-03-20,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1592,ENC-5592,1,2025-02-26,Urgent,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1593,ENC-5593,12,2025-01-15,Emergency,PICU,14,Discharged Home,1,2025-01,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1594,ENC-5594,0,2025-02-22,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1595,ENC-5595,9,2025-02-24,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1596,ENC-5596,4,2025-03-07,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1597,ENC-5597,9,2025-01-31,Elective,General Pediatrics,3,Discharged Home,1,2025-01,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1598,ENC-5598,0,2025-04-21,Emergency,PICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1599,ENC-5599,5,2025-02-03,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1600,ENC-5600,12,2025-02-28,Emergency,PICU,13,Discharged Home,1,2025-02,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1601,ENC-5601,16,2025-04-01,Elective,General Pediatrics,5,Observation/Follow-up,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1602,ENC-5602,2,2025-01-11,Emergency,General Pediatrics,4,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1603,ENC-5603,13,2025-01-05,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1604,ENC-5604,14,2025-01-20,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1605,ENC-5605,10,2025-05-28,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1606,ENC-5606,13,2025-04-14,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1607,ENC-5607,13,2025-03-16,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1608,ENC-5608,3,2025-04-14,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1609,ENC-5609,0,2025-03-25,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Infant,Same-day,0,Not readmitted
+PT-1610,ENC-5610,5,2025-04-28,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1611,ENC-5611,11,2025-04-22,Elective,General Pediatrics,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1612,ENC-5612,3,2025-03-04,Urgent,Emergency Department,0,Observation/Follow-up,1,2025-03,Child,Same-day,0,Readmitted within 30 days
+PT-1613,ENC-5613,13,2025-04-13,Urgent,PICU,14,Discharged Home,0,2025-04,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1614,ENC-5614,16,2025-01-21,Emergency,Emergency Department,0,Discharged Home,1,2025-01,Adolescent,Same-day,0,Readmitted within 30 days
+PT-1615,ENC-5615,12,2025-03-21,Emergency,Emergency Department,1,Transferred,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1616,ENC-5616,10,2025-02-26,Urgent,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1617,ENC-5617,10,2025-02-13,Emergency,PICU,17,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1618,ENC-5618,2,2025-05-11,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1619,ENC-5619,3,2025-05-16,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1620,ENC-5620,16,2025-02-19,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1621,ENC-5621,11,2025-03-31,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1622,ENC-5622,4,2025-03-02,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1623,ENC-5623,3,2025-03-07,Emergency,PICU,7,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1624,ENC-5624,6,2025-02-09,Elective,General Pediatrics,2,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1625,ENC-5625,2,2025-05-07,Emergency,PICU,7,Discharged Home,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1626,ENC-5626,14,2025-05-25,Emergency,PICU,17,Discharged Home,1,2025-05,Adolescent,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1627,ENC-5627,18,2025-04-25,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1628,ENC-5628,18,2025-03-24,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1629,ENC-5629,10,2025-02-08,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1630,ENC-5630,14,2025-01-18,Emergency,Emergency Department,1,Transferred,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1631,ENC-5631,15,2025-03-19,Emergency,PICU,12,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1632,ENC-5632,0,2025-01-15,Emergency,NICU,18,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1633,ENC-5633,11,2025-05-10,Emergency,Emergency Department,0,Transferred,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1634,ENC-5634,2,2025-03-21,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1635,ENC-5635,14,2025-01-10,Emergency,PICU,12,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1636,ENC-5636,1,2025-04-05,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1637,ENC-5637,9,2025-01-24,Emergency,PICU,6,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1638,ENC-5638,16,2025-04-09,Urgent,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1639,ENC-5639,14,2025-05-29,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1640,ENC-5640,17,2025-01-11,Emergency,PICU,17,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1641,ENC-5641,14,2025-05-27,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1642,ENC-5642,6,2025-03-24,Urgent,Emergency Department,1,Observation/Follow-up,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1643,ENC-5643,15,2025-05-09,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1644,ENC-5644,4,2025-04-26,Emergency,PICU,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1645,ENC-5645,3,2025-01-22,Emergency,General Pediatrics,3,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1646,ENC-5646,16,2025-02-14,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1647,ENC-5647,1,2025-03-05,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1648,ENC-5648,14,2025-05-15,Emergency,PICU,12,Transferred,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1649,ENC-5649,16,2025-02-10,Urgent,PICU,14,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1650,ENC-5650,11,2025-04-06,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1651,ENC-5651,9,2025-04-15,Emergency,PICU,11,Discharged Home,1,2025-04,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1652,ENC-5652,10,2025-01-14,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1653,ENC-5653,10,2025-01-17,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1654,ENC-5654,10,2025-05-23,Urgent,General Pediatrics,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1655,ENC-5655,12,2025-03-06,Urgent,General Pediatrics,3,Observation/Follow-up,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1656,ENC-5656,4,2025-03-27,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1657,ENC-5657,0,2025-05-30,Emergency,NICU,12,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1658,ENC-5658,4,2025-03-31,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1659,ENC-5659,9,2025-04-11,Emergency,PICU,15,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1660,ENC-5660,4,2025-01-22,Elective,General Pediatrics,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1661,ENC-5661,9,2025-05-24,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1662,ENC-5662,0,2025-03-26,Emergency,NICU,22,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1663,ENC-5663,4,2025-05-15,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1664,ENC-5664,2,2025-04-19,Emergency,Emergency Department,0,Transferred,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1665,ENC-5665,16,2025-01-05,Emergency,PICU,10,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1666,ENC-5666,11,2025-02-16,Emergency,PICU,9,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1667,ENC-5667,6,2025-03-29,Urgent,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1668,ENC-5668,15,2025-02-27,Emergency,General Pediatrics,2,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1669,ENC-5669,4,2025-01-20,Emergency,PICU,7,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1670,ENC-5670,9,2025-01-26,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1671,ENC-5671,16,2025-05-19,Urgent,PICU,17,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1672,ENC-5672,16,2025-01-10,Urgent,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1673,ENC-5673,0,2025-02-03,Emergency,NICU,20,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1674,ENC-5674,12,2025-02-11,Emergency,General Pediatrics,2,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1675,ENC-5675,0,2025-02-12,Emergency,NICU,15,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1676,ENC-5676,14,2025-04-16,Elective,General Pediatrics,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1677,ENC-5677,11,2025-04-24,Elective,General Pediatrics,2,Transferred,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1678,ENC-5678,0,2025-04-25,Urgent,NICU,19,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1679,ENC-5679,7,2025-05-17,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1680,ENC-5680,7,2025-03-21,Emergency,Emergency Department,0,Discharged Home,1,2025-03,Child,Same-day,0,Readmitted within 30 days
+PT-1681,ENC-5681,15,2025-02-19,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1682,ENC-5682,11,2025-04-23,Urgent,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1683,ENC-5683,14,2025-03-14,Emergency,PICU,17,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1684,ENC-5684,0,2025-05-09,Emergency,NICU,22,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1685,ENC-5685,16,2025-04-18,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1686,ENC-5686,5,2025-02-21,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1687,ENC-5687,4,2025-03-06,Emergency,PICU,18,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1688,ENC-5688,1,2025-04-06,Elective,General Pediatrics,4,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1689,ENC-5689,17,2025-05-13,Urgent,General Pediatrics,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1690,ENC-5690,3,2025-01-22,Emergency,PICU,9,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1691,ENC-5691,5,2025-03-11,Urgent,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1692,ENC-5692,14,2025-05-12,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1693,ENC-5693,0,2025-04-22,Emergency,NICU,14,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1694,ENC-5694,2,2025-02-26,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1695,ENC-5695,14,2025-03-31,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1696,ENC-5696,0,2025-04-17,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1697,ENC-5697,1,2025-04-12,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1698,ENC-5698,16,2025-04-06,Emergency,Emergency Department,0,Transferred,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1699,ENC-5699,7,2025-01-21,Emergency,PICU,11,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1700,ENC-5700,11,2025-02-27,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1701,ENC-5701,0,2025-01-26,Elective,General Pediatrics,3,Discharged Home,1,2025-01,Infant,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1702,ENC-5702,10,2025-02-05,Urgent,General Pediatrics,2,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1703,ENC-5703,1,2025-05-01,Elective,General Pediatrics,3,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1704,ENC-5704,0,2025-05-01,Emergency,NICU,14,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1705,ENC-5705,14,2025-01-02,Urgent,PICU,14,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1706,ENC-5706,2,2025-01-05,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1707,ENC-5707,8,2025-02-08,Emergency,PICU,8,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1708,ENC-5708,17,2025-05-16,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1709,ENC-5709,13,2025-01-29,Emergency,Emergency Department,0,Transferred,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1710,ENC-5710,9,2025-03-02,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1711,ENC-5711,9,2025-02-01,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1712,ENC-5712,1,2025-04-18,Elective,General Pediatrics,2,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1713,ENC-5713,14,2025-01-17,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1714,ENC-5714,3,2025-05-08,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1715,ENC-5715,17,2025-01-05,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1716,ENC-5716,16,2025-03-03,Emergency,PICU,14,Discharged Home,1,2025-03,Adolescent,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1717,ENC-5717,4,2025-03-16,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1718,ENC-5718,13,2025-01-01,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1719,ENC-5719,11,2025-03-03,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1720,ENC-5720,18,2025-02-17,Elective,General Pediatrics,4,Discharged Home,0,2025-02,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1721,ENC-5721,2,2025-04-03,Emergency,PICU,13,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1722,ENC-5722,2,2025-05-20,Urgent,General Pediatrics,5,Discharged Home,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1723,ENC-5723,16,2025-05-22,Elective,General Pediatrics,5,Discharged Home,0,2025-05,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1724,ENC-5724,0,2025-05-01,Urgent,General Pediatrics,4,Discharged Home,1,2025-05,Infant,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1725,ENC-5725,1,2025-04-10,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1726,ENC-5726,11,2025-03-06,Urgent,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1727,ENC-5727,0,2025-04-02,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Infant,Same-day,0,Not readmitted
+PT-1728,ENC-5728,2,2025-03-03,Emergency,PICU,10,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1729,ENC-5729,3,2025-05-29,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1730,ENC-5730,10,2025-01-12,Emergency,PICU,7,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1731,ENC-5731,0,2025-05-20,Urgent,NICU,21,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1732,ENC-5732,10,2025-02-14,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1733,ENC-5733,14,2025-05-03,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1734,ENC-5734,5,2025-02-04,Emergency,PICU,17,Discharged Home,1,2025-02,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1735,ENC-5735,0,2025-04-28,Emergency,NICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1736,ENC-5736,1,2025-02-21,Emergency,PICU,9,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1737,ENC-5737,1,2025-02-21,Emergency,Emergency Department,0,Transferred,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1738,ENC-5738,1,2025-03-22,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1739,ENC-5739,9,2025-04-12,Emergency,PICU,13,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1740,ENC-5740,17,2025-05-02,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1741,ENC-5741,8,2025-01-10,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1742,ENC-5742,6,2025-04-02,Urgent,PICU,9,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1743,ENC-5743,1,2025-03-26,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1744,ENC-5744,8,2025-02-01,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1745,ENC-5745,0,2025-04-22,Emergency,NICU,21,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1746,ENC-5746,12,2025-04-09,Elective,General Pediatrics,4,Discharged Home,1,2025-04,Child,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1747,ENC-5747,10,2025-05-08,Elective,General Pediatrics,2,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1748,ENC-5748,0,2025-04-05,Emergency,NICU,25,Discharged Home,1,2025-04,Infant,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1749,ENC-5749,16,2025-03-10,Emergency,Emergency Department,1,Discharged Home,1,2025-03,Adolescent,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1750,ENC-5750,2,2025-04-19,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1751,ENC-5751,2,2025-04-21,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1752,ENC-5752,5,2025-05-20,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1753,ENC-5753,9,2025-03-24,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1754,ENC-5754,3,2025-03-25,Urgent,General Pediatrics,1,Discharged Home,1,2025-03,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1755,ENC-5755,9,2025-04-25,Emergency,PICU,9,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1756,ENC-5756,13,2025-02-12,Emergency,Emergency Department,1,Transferred,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1757,ENC-5757,14,2025-03-31,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1758,ENC-5758,14,2025-04-01,Elective,General Pediatrics,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1759,ENC-5759,13,2025-03-12,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1760,ENC-5760,1,2025-01-20,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1761,ENC-5761,12,2025-04-04,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1762,ENC-5762,16,2025-02-10,Emergency,PICU,17,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1763,ENC-5763,0,2025-02-06,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1764,ENC-5764,14,2025-02-02,Elective,General Pediatrics,1,Observation/Follow-up,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1765,ENC-5765,2,2025-03-02,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1766,ENC-5766,11,2025-04-09,Urgent,General Pediatrics,3,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1767,ENC-5767,18,2025-01-09,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Adolescent,Same-day,0,Not readmitted
+PT-1768,ENC-5768,4,2025-04-05,Elective,General Pediatrics,4,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1769,ENC-5769,11,2025-01-20,Elective,General Pediatrics,4,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1770,ENC-5770,18,2025-02-05,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1771,ENC-5771,0,2025-04-12,Urgent,NICU,21,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1772,ENC-5772,10,2025-03-13,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1773,ENC-5773,7,2025-01-07,Elective,General Pediatrics,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1774,ENC-5774,5,2025-05-08,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1775,ENC-5775,16,2025-04-10,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1776,ENC-5776,17,2025-03-09,Urgent,General Pediatrics,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1777,ENC-5777,8,2025-04-25,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1778,ENC-5778,6,2025-03-15,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1779,ENC-5779,15,2025-02-21,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1780,ENC-5780,3,2025-02-04,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1781,ENC-5781,0,2025-04-26,Emergency,NICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1782,ENC-5782,5,2025-04-24,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1783,ENC-5783,2,2025-03-30,Emergency,General Pediatrics,3,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1784,ENC-5784,2,2025-05-19,Emergency,PICU,13,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1785,ENC-5785,9,2025-02-10,Urgent,General Pediatrics,3,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1786,ENC-5786,5,2025-05-11,Elective,General Pediatrics,3,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1787,ENC-5787,7,2025-02-01,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1788,ENC-5788,6,2025-02-05,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1789,ENC-5789,7,2025-05-07,Emergency,PICU,17,Discharged Home,1,2025-05,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1790,ENC-5790,0,2025-04-03,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Infant,Same-day,0,Not readmitted
+PT-1791,ENC-5791,17,2025-05-27,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1792,ENC-5792,0,2025-04-30,Emergency,NICU,21,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1793,ENC-5793,17,2025-02-03,Emergency,Emergency Department,0,Transferred,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1794,ENC-5794,0,2025-01-17,Emergency,NICU,12,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1795,ENC-5795,9,2025-04-12,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1796,ENC-5796,15,2025-05-15,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1797,ENC-5797,13,2025-04-15,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1798,ENC-5798,0,2025-02-02,Urgent,NICU,12,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1799,ENC-5799,10,2025-01-19,Emergency,Emergency Department,0,Transferred,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1800,ENC-5800,14,2025-04-30,Emergency,Emergency Department,0,Transferred,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1801,ENC-5801,16,2025-03-30,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1802,ENC-5802,0,2025-05-22,Urgent,NICU,14,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1803,ENC-5803,18,2025-02-03,Emergency,General Pediatrics,2,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1804,ENC-5804,13,2025-05-09,Emergency,Emergency Department,0,Transferred,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1805,ENC-5805,1,2025-02-01,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1806,ENC-5806,16,2025-03-19,Emergency,General Pediatrics,2,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1807,ENC-5807,5,2025-02-11,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1808,ENC-5808,10,2025-02-27,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1809,ENC-5809,11,2025-03-14,Emergency,PICU,13,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1810,ENC-5810,2,2025-02-20,Emergency,PICU,9,Transferred,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1811,ENC-5811,17,2025-03-12,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1812,ENC-5812,4,2025-03-19,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1813,ENC-5813,17,2025-05-09,Emergency,General Pediatrics,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1814,ENC-5814,5,2025-05-29,Emergency,Emergency Department,1,Transferred,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1815,ENC-5815,4,2025-02-13,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1816,ENC-5816,10,2025-05-25,Emergency,PICU,18,Observation/Follow-up,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1817,ENC-5817,1,2025-01-08,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1818,ENC-5818,2,2025-05-28,Elective,General Pediatrics,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1819,ENC-5819,8,2025-05-27,Emergency,General Pediatrics,2,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1820,ENC-5820,0,2025-01-08,Emergency,NICU,23,Observation/Follow-up,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1821,ENC-5821,15,2025-05-20,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1822,ENC-5822,9,2025-03-19,Emergency,PICU,15,Transferred,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1823,ENC-5823,15,2025-04-14,Emergency,PICU,8,Discharged Home,0,2025-04,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1824,ENC-5824,9,2025-01-19,Emergency,PICU,12,Discharged Home,1,2025-01,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1825,ENC-5825,1,2025-04-23,Elective,General Pediatrics,2,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1826,ENC-5826,13,2025-05-04,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1827,ENC-5827,14,2025-03-29,Emergency,General Pediatrics,2,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1828,ENC-5828,4,2025-03-22,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1829,ENC-5829,10,2025-03-30,Emergency,Emergency Department,0,Transferred,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1830,ENC-5830,12,2025-04-05,Emergency,PICU,7,Transferred,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1831,ENC-5831,0,2025-03-23,Emergency,NICU,13,Transferred,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1832,ENC-5832,7,2025-04-30,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1833,ENC-5833,0,2025-03-10,Emergency,NICU,13,Discharged Home,1,2025-03,Infant,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1834,ENC-5834,14,2025-03-05,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1835,ENC-5835,4,2025-01-13,Emergency,PICU,6,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1836,ENC-5836,0,2025-04-09,Emergency,NICU,19,Transferred,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1837,ENC-5837,13,2025-02-10,Emergency,General Pediatrics,2,Observation/Follow-up,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1838,ENC-5838,10,2025-05-28,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1839,ENC-5839,10,2025-02-18,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1840,ENC-5840,5,2025-05-12,Elective,General Pediatrics,4,Discharged Home,0,2025-05,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1841,ENC-5841,14,2025-05-08,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1842,ENC-5842,9,2025-05-08,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1843,ENC-5843,0,2025-04-11,Elective,General Pediatrics,1,Discharged Home,0,2025-04,Infant,Short stay (1-3 days),0,Not readmitted
+PT-1844,ENC-5844,16,2025-04-28,Urgent,Emergency Department,0,Transferred,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1845,ENC-5845,7,2025-02-25,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1846,ENC-5846,18,2025-01-13,Urgent,PICU,10,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1847,ENC-5847,1,2025-03-14,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1848,ENC-5848,15,2025-05-01,Emergency,PICU,14,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1849,ENC-5849,9,2025-05-18,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1850,ENC-5850,0,2025-01-28,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Infant,Same-day,0,Not readmitted
+PT-1851,ENC-5851,13,2025-03-09,Emergency,PICU,7,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
+PT-1852,ENC-5852,11,2025-04-14,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1853,ENC-5853,11,2025-04-13,Urgent,General Pediatrics,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1854,ENC-5854,1,2025-05-24,Urgent,PICU,14,Discharged Home,1,2025-05,Child,Extended stay (8+ days),1,Readmitted within 30 days
+PT-1855,ENC-5855,6,2025-05-22,Elective,General Pediatrics,3,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1856,ENC-5856,9,2025-01-19,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1857,ENC-5857,12,2025-04-26,Urgent,PICU,13,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1858,ENC-5858,17,2025-03-13,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1859,ENC-5859,3,2025-02-02,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1860,ENC-5860,0,2025-04-11,Emergency,NICU,13,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1861,ENC-5861,11,2025-03-28,Urgent,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1862,ENC-5862,17,2025-04-04,Emergency,Emergency Department,1,Transferred,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1863,ENC-5863,4,2025-05-11,Emergency,PICU,8,Observation/Follow-up,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1864,ENC-5864,0,2025-05-09,Emergency,NICU,22,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1865,ENC-5865,1,2025-01-10,Emergency,General Pediatrics,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1866,ENC-5866,4,2025-03-27,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1867,ENC-5867,15,2025-05-13,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1868,ENC-5868,14,2025-02-08,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1869,ENC-5869,16,2025-02-05,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1870,ENC-5870,10,2025-03-23,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Child,Short stay (1-3 days),0,Not readmitted
+PT-1871,ENC-5871,5,2025-04-11,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1872,ENC-5872,9,2025-03-28,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1873,ENC-5873,16,2025-05-11,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1874,ENC-5874,17,2025-05-06,Urgent,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1875,ENC-5875,18,2025-03-18,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1876,ENC-5876,15,2025-04-05,Elective,General Pediatrics,1,Discharged Home,0,2025-04,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1877,ENC-5877,10,2025-01-29,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1878,ENC-5878,13,2025-05-30,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1879,ENC-5879,9,2025-01-07,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1880,ENC-5880,15,2025-03-09,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1881,ENC-5881,18,2025-02-28,Emergency,PICU,14,Discharged Home,0,2025-02,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1882,ENC-5882,1,2025-05-03,Emergency,PICU,14,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1883,ENC-5883,5,2025-04-08,Elective,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1884,ENC-5884,4,2025-03-04,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1885,ENC-5885,1,2025-01-29,Urgent,General Pediatrics,5,Discharged Home,0,2025-01,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1886,ENC-5886,6,2025-01-05,Emergency,Emergency Department,0,Discharged Home,1,2025-01,Child,Same-day,0,Readmitted within 30 days
+PT-1887,ENC-5887,14,2025-03-22,Urgent,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1888,ENC-5888,0,2025-02-08,Urgent,NICU,23,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1889,ENC-5889,0,2025-02-22,Emergency,NICU,23,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1890,ENC-5890,0,2025-05-09,Urgent,NICU,23,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1891,ENC-5891,15,2025-01-16,Urgent,PICU,18,Discharged Home,0,2025-01,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1892,ENC-5892,4,2025-05-13,Emergency,Emergency Department,0,Transferred,1,2025-05,Child,Same-day,0,Readmitted within 30 days
+PT-1893,ENC-5893,6,2025-05-24,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1894,ENC-5894,10,2025-05-03,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1895,ENC-5895,16,2025-04-07,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1896,ENC-5896,0,2025-02-14,Emergency,NICU,20,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1897,ENC-5897,14,2025-05-17,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1898,ENC-5898,10,2025-05-20,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1899,ENC-5899,11,2025-03-09,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1900,ENC-5900,15,2025-02-19,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1901,ENC-5901,7,2025-03-13,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1902,ENC-5902,17,2025-03-18,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1903,ENC-5903,0,2025-03-18,Emergency,NICU,17,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1904,ENC-5904,9,2025-02-23,Emergency,Emergency Department,0,Transferred,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1905,ENC-5905,15,2025-03-23,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1906,ENC-5906,15,2025-05-24,Elective,General Pediatrics,3,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1907,ENC-5907,8,2025-02-01,Emergency,General Pediatrics,3,Discharged Home,0,2025-02,Child,Short stay (1-3 days),0,Not readmitted
+PT-1908,ENC-5908,18,2025-05-20,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1909,ENC-5909,12,2025-03-30,Emergency,PICU,11,Discharged Home,0,2025-03,Child,Extended stay (8+ days),1,Not readmitted
+PT-1910,ENC-5910,4,2025-03-16,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1911,ENC-5911,0,2025-03-15,Emergency,NICU,11,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1912,ENC-5912,2,2025-04-24,Emergency,PICU,10,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1913,ENC-5913,8,2025-05-03,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1914,ENC-5914,6,2025-05-18,Urgent,General Pediatrics,2,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1915,ENC-5915,8,2025-05-24,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1916,ENC-5916,8,2025-02-05,Emergency,Emergency Department,0,Discharged Home,1,2025-02,Child,Same-day,0,Readmitted within 30 days
+PT-1917,ENC-5917,3,2025-05-31,Emergency,Emergency Department,1,Observation/Follow-up,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1918,ENC-5918,7,2025-01-13,Urgent,General Pediatrics,2,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1919,ENC-5919,16,2025-03-01,Emergency,PICU,8,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1920,ENC-5920,0,2025-01-26,Emergency,NICU,11,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1921,ENC-5921,13,2025-05-01,Emergency,PICU,10,Discharged Home,0,2025-05,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1922,ENC-5922,3,2025-02-05,Emergency,PICU,15,Discharged Home,0,2025-02,Child,Extended stay (8+ days),1,Not readmitted
+PT-1923,ENC-5923,0,2025-05-21,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Infant,Same-day,0,Not readmitted
+PT-1924,ENC-5924,5,2025-04-15,Urgent,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1925,ENC-5925,15,2025-05-03,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1926,ENC-5926,6,2025-03-15,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1927,ENC-5927,10,2025-03-15,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1928,ENC-5928,1,2025-05-27,Elective,General Pediatrics,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1929,ENC-5929,7,2025-05-17,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1930,ENC-5930,0,2025-02-14,Emergency,NICU,11,Transferred,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1931,ENC-5931,13,2025-02-15,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1932,ENC-5932,1,2025-04-12,Emergency,PICU,18,Discharged Home,0,2025-04,Child,Extended stay (8+ days),1,Not readmitted
+PT-1933,ENC-5933,15,2025-02-17,Urgent,Emergency Department,0,Discharged Home,0,2025-02,Adolescent,Same-day,0,Not readmitted
+PT-1934,ENC-5934,9,2025-01-03,Urgent,General Pediatrics,1,Discharged Home,0,2025-01,Child,Short stay (1-3 days),0,Not readmitted
+PT-1935,ENC-5935,9,2025-05-26,Emergency,Emergency Department,0,Observation/Follow-up,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1936,ENC-5936,3,2025-03-27,Emergency,Emergency Department,0,Transferred,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1937,ENC-5937,9,2025-04-27,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1938,ENC-5938,17,2025-05-07,Elective,General Pediatrics,5,Discharged Home,1,2025-05,Adolescent,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1939,ENC-5939,4,2025-05-10,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1940,ENC-5940,14,2025-03-11,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1941,ENC-5941,6,2025-01-29,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1942,ENC-5942,0,2025-02-11,Emergency,NICU,20,Discharged Home,0,2025-02,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1943,ENC-5943,14,2025-03-07,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1944,ENC-5944,5,2025-01-04,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1945,ENC-5945,10,2025-05-26,Elective,General Pediatrics,3,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1946,ENC-5946,6,2025-02-14,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1947,ENC-5947,12,2025-04-20,Urgent,Emergency Department,0,Discharged Home,1,2025-04,Child,Same-day,0,Readmitted within 30 days
+PT-1948,ENC-5948,16,2025-03-25,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1949,ENC-5949,0,2025-04-13,Urgent,NICU,12,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1950,ENC-5950,3,2025-02-05,Elective,General Pediatrics,2,Discharged Home,1,2025-02,Child,Short stay (1-3 days),0,Readmitted within 30 days
+PT-1951,ENC-5951,15,2025-03-24,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1952,ENC-5952,0,2025-01-02,Emergency,NICU,17,Discharged Home,0,2025-01,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1953,ENC-5953,8,2025-03-02,Urgent,General Pediatrics,4,Discharged Home,0,2025-03,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1954,ENC-5954,14,2025-03-10,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1955,ENC-5955,10,2025-05-30,Emergency,PICU,9,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1956,ENC-5956,18,2025-03-08,Emergency,PICU,5,Discharged Home,1,2025-03,Adolescent,Moderate stay (4-7 days),1,Readmitted within 30 days
+PT-1957,ENC-5957,11,2025-03-02,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1958,ENC-5958,1,2025-01-31,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1959,ENC-5959,14,2025-03-20,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1960,ENC-5960,5,2025-04-14,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1961,ENC-5961,16,2025-03-21,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Adolescent,Same-day,0,Not readmitted
+PT-1962,ENC-5962,3,2025-03-17,Emergency,Emergency Department,0,Discharged Home,0,2025-03,Child,Same-day,0,Not readmitted
+PT-1963,ENC-5963,11,2025-02-26,Urgent,General Pediatrics,5,Observation/Follow-up,0,2025-02,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1964,ENC-5964,7,2025-02-04,Emergency,Emergency Department,0,Discharged Home,0,2025-02,Child,Same-day,0,Not readmitted
+PT-1965,ENC-5965,15,2025-02-09,Urgent,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1966,ENC-5966,14,2025-04-06,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1967,ENC-5967,13,2025-05-21,Urgent,Emergency Department,0,Transferred,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1968,ENC-5968,15,2025-05-18,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1969,ENC-5969,0,2025-03-05,Emergency,NICU,16,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1970,ENC-5970,2,2025-05-15,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1971,ENC-5971,0,2025-05-16,Urgent,NICU,24,Discharged Home,0,2025-05,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1972,ENC-5972,11,2025-01-20,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1973,ENC-5973,18,2025-01-29,Emergency,Emergency Department,1,Discharged Home,0,2025-01,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1974,ENC-5974,1,2025-05-21,Emergency,Emergency Department,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1975,ENC-5975,16,2025-05-27,Emergency,General Pediatrics,2,Discharged Home,0,2025-05,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1976,ENC-5976,17,2025-02-12,Emergency,General Pediatrics,2,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1977,ENC-5977,10,2025-05-14,Emergency,PICU,18,Discharged Home,0,2025-05,Child,Extended stay (8+ days),1,Not readmitted
+PT-1978,ENC-5978,14,2025-02-22,Elective,General Pediatrics,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1979,ENC-5979,18,2025-05-06,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1980,ENC-5980,2,2025-04-25,Emergency,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1981,ENC-5981,1,2025-04-27,Emergency,Emergency Department,1,Discharged Home,0,2025-04,Child,Short stay (1-3 days),0,Not readmitted
+PT-1982,ENC-5982,4,2025-04-17,Emergency,General Pediatrics,5,Discharged Home,0,2025-04,Child,Moderate stay (4-7 days),1,Not readmitted
+PT-1983,ENC-5983,14,2025-05-25,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Adolescent,Same-day,0,Not readmitted
+PT-1984,ENC-5984,1,2025-05-24,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1985,ENC-5985,14,2025-03-20,Emergency,PICU,15,Discharged Home,0,2025-03,Adolescent,Extended stay (8+ days),1,Not readmitted
+PT-1986,ENC-5986,0,2025-04-12,Emergency,NICU,10,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1987,ENC-5987,8,2025-01-01,Emergency,PICU,18,Discharged Home,0,2025-01,Child,Extended stay (8+ days),1,Not readmitted
+PT-1988,ENC-5988,6,2025-05-29,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1989,ENC-5989,2,2025-01-12,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1990,ENC-5990,13,2025-03-30,Emergency,Emergency Department,1,Discharged Home,0,2025-03,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1991,ENC-5991,2,2025-05-19,Emergency,Emergency Department,0,Discharged Home,0,2025-05,Child,Same-day,0,Not readmitted
+PT-1992,ENC-5992,1,2025-05-01,Emergency,General Pediatrics,1,Discharged Home,0,2025-05,Child,Short stay (1-3 days),0,Not readmitted
+PT-1993,ENC-5993,0,2025-03-15,Urgent,NICU,11,Discharged Home,0,2025-03,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1994,ENC-5994,13,2025-02-16,Emergency,Emergency Department,1,Discharged Home,0,2025-02,Adolescent,Short stay (1-3 days),0,Not readmitted
+PT-1995,ENC-5995,4,2025-04-18,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Child,Same-day,0,Not readmitted
+PT-1996,ENC-5996,0,2025-04-08,Emergency,NICU,21,Discharged Home,0,2025-04,Infant,Extended stay (8+ days),1,Not readmitted
+PT-1997,ENC-5997,14,2025-04-07,Emergency,Emergency Department,0,Discharged Home,0,2025-04,Adolescent,Same-day,0,Not readmitted
+PT-1998,ENC-5998,12,2025-01-21,Emergency,Emergency Department,0,Discharged Home,0,2025-01,Child,Same-day,0,Not readmitted
+PT-1999,ENC-5999,17,2025-03-31,Urgent,PICU,7,Discharged Home,0,2025-03,Adolescent,Moderate stay (4-7 days),1,Not readmitted
